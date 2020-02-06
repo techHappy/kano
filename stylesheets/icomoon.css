@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?200299");
+  src: url("../fonts/icomoon.eot?#iefix200299") format("embedded-opentype"), url("../fonts/icomoon.woff?200299") format("woff"), url("../fonts/icomoon.ttf?200299") format("truetype"), url("../fonts/icomoon.svg?200299#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /* line 5, F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 13, ../sass/icomoon.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,22 +29,26 @@ time, mark, audio, video {
 }
 
 /* line 22, F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 35, ../sass/icomoon.scss */
 html {
   line-height: 1;
 }
 
 /* line 24, F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 40, ../sass/icomoon.scss */
 ol, ul {
   list-style: none;
 }
 
 /* line 26, F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 45, ../sass/icomoon.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 /* line 28, F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 51, ../sass/icomoon.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
@@ -44,33 +56,39 @@ caption, th, td {
 }
 
 /* line 30, F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 58, ../sass/icomoon.scss */
 q, blockquote {
   quotes: none;
 }
+
 /* line 103, F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 62, ../sass/icomoon.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
 /* line 32, F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 68, ../sass/icomoon.scss */
 a img {
   border: none;
 }
 
 /* line 116, F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 73, ../sass/icomoon.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
+/* line 78, ../sass/icomoon.scss */
 body {
   font-size: 62.5%;
   text-align: center;
-  background: #FFFDF1;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
+/* line 84, ../sass/icomoon.scss */
 .hero {
   max-width: 100em;
   max-height: 100em;
@@ -79,21 +97,29 @@ body {
   background: url("/images/kano.jpg");
   background-size: cover;
 }
-/* line 30, ../sass/style.scss */
+
+/* line 28, ../sass/style.scss */
+/* line 93, ../sass/icomoon.scss */
 .hero header {
-  clear: both;
+  clear: none;
 }
-/* line 31, ../sass/style.scss */
+
+/* line 29, ../sass/style.scss */
+/* line 97, ../sass/icomoon.scss */
 .hero header img {
   width: 8em;
   height: 8em;
   float: left;
 }
-/* line 37, ../sass/style.scss */
+
+/* line 34, ../sass/style.scss */
+/* line 103, ../sass/icomoon.scss */
 .hero header ul {
   float: right;
 }
-/* line 41, ../sass/style.scss */
+
+/* line 37, ../sass/style.scss */
+/* line 107, ../sass/icomoon.scss */
 .hero header li {
   float: left;
   margin: 1em .5em;
@@ -102,27 +128,37 @@ body {
   border-radius: 2px;
   font-color: highlight-text-color;
 }
-/* line 49, ../sass/style.scss */
+
+/* line 44, ../sass/style.scss */
+/* line 116, ../sass/icomoon.scss */
 .hero header li:last-child {
   border: 3px solid white;
 }
-/* line 57, ../sass/style.scss */
+
+/* line 52, ../sass/style.scss */
+/* line 120, ../sass/icomoon.scss */
 .hero h1 {
   font-size: 4em;
   font-color: highlight-text-color;
   padding: 2em 0 1em 0;
 }
-/* line 63, ../sass/style.scss */
+
+/* line 58, ../sass/style.scss */
+/* line 126, ../sass/icomoon.scss */
 .hero h2 {
   margin: 1em;
   font-size: 2em;
   font-color: highlight-text-color;
 }
-/* line 69, ../sass/style.scss */
+
+/* line 64, ../sass/style.scss */
+/* line 132, ../sass/icomoon.scss */
 .hero form {
   padding: 2em 0 4em 0;
 }
-/* line 72, ../sass/style.scss */
+
+/* line 67, ../sass/style.scss */
+/* line 136, ../sass/icomoon.scss */
 .hero form input[type="text"] {
   padding: 1em;
   border: 0;
@@ -131,7 +167,9 @@ body {
   background: #efefef;
   opacity: .5;
 }
-/* line 81, ../sass/style.scss */
+
+/* line 76, ../sass/style.scss */
+/* line 145, ../sass/icomoon.scss */
 .hero form input[type="button"] {
   color: white;
   padding: 1em;
@@ -141,19 +179,24 @@ body {
   background-color: lightgreen;
 }
 
-/* line 92, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
+/* line 155, ../sass/icomoon.scss */
 .numbers {
   width: 80%;
   margin: 0 auto;
 }
-/* line 96, ../sass/style.scss */
+
+/* line 91, ../sass/style.scss */
+/* line 160, ../sass/icomoon.scss */
 .numbers ul {
   position: relative;
   top: 0em;
   background: #efefef;
-  clear: both;
+  clear: none;
 }
-/* line 101, ../sass/style.scss */
+
+/* line 96, ../sass/style.scss */
+/* line 167, ../sass/icomoon.scss */
 .numbers ul li {
   float: left;
   width: 25%;
@@ -162,74 +205,22 @@ body {
   border-bottom: 1px solid #D9DADA;
   border-left: 1px solid #D9DADA;
 }
-/* line 109, ../sass/style.scss */
+
+/* line 104, ../sass/style.scss */
+/* line 176, ../sass/icomoon.scss */
 .numbers ul li:last-child {
   border-right: 1px solid #D9DADA;
 }
-/* line 113, ../sass/style.scss */
+
+/* line 108, ../sass/style.scss */
+/* line 180, ../sass/icomoon.scss */
 .numbers ul li h2 {
   font-size: 2em;
-  font-weight: bold;
   padding: 1em 0;
-}
-/* line 119, ../sass/style.scss */
-.numbers ul li h3 {
-  padding: 0 0 2em 0;
-  font-size: 1.5em;
 }
 
-/* line 129, ../sass/style.scss */
-.how-it-works {
-  display: block;
-  margin: 2em auto 2em auto;
-  clear: both;
-}
-/* line 134, ../sass/style.scss */
-.how-it-works .number {
-  font-size: 2em;
-  color: black;
-  border: 1px solid black;
-  width: 1em;
-  height: 1em;
-  display: block;
-  margin: 1em auto 2em auto;
-  padding: .4em;
-  background-color: #efefef;
-  border-radius: 100%;
-}
-/* line 148, ../sass/style.scss */
-.how-it-works li {
-  float: left;
-  width: 33.33%;
-}
-/* line 154, ../sass/style.scss */
-.how-it-works p::before {
-  content: "";
-  display: block;
-  color: #6e6e6e;
-}
-/* line 160, ../sass/style.scss */
-.how-it-works p {
-  color: #C8C8C7;
-  font-size: 2em;
-}
-/* line 165, ../sass/style.scss */
-.how-it-works h2 {
-  font-size: 2em;
-  text-transform: uppercase;
-  padding: 1em 0;
-}
-/* line 170, ../sass/style.scss */
-.how-it-works h2:after {
-  display: block;
-  content: "";
-  background-color: black;
-  width: 2em;
-  height: .1em;
-  margin: .4em auto;
-}
-/* line 180, ../sass/style.scss */
-.how-it-works h3 {
-  font-size: 1.5em;
-  font-weight: bold;
+/* line 113, ../sass/style.scss */
+/* line 185, ../sass/icomoon.scss */
+.numbers ul li h3 {
+  padding: 0 0 2em 0;
 }
