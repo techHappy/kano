@@ -21,13 +21,15 @@ body {
 .hero {
     max-width: 100em;
     max-height: 100em;
-    margin: 0 auto;
-    padding: 2em;
+    margin: 0 auto 1em auto;
+    padding: 2em 0em 60em 0em;
 
     background: url('/images/kano.jpg');
     background-size: cover;
 
     header {
+
+
         img {
             width: 8em;
             height: 8em;
@@ -53,11 +55,13 @@ body {
 
         @include clearfix;
     }
+}
 
+.intros {
     h1 {
         font-size: 4em;
         font-color: highlight-text-color;
-        padding: 2em 0 1em 0;
+        padding: .1em 0 1em 0;
     }
 
     h2 {
@@ -112,7 +116,7 @@ body {
 
             h2 {
                 font-size: 2em;
-                font-weight:bold;
+                font-weight: bold;
                 padding: 1em 0;
             }
 

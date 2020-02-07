@@ -74,8 +74,8 @@ body {
 .hero {
   max-width: 100em;
   max-height: 100em;
-  margin: 0 auto;
-  padding: 2em;
+  margin: 0 auto 1em auto;
+  padding: 2em 0em 60em 0em;
   background: url("/images/kano.jpg");
   background-size: cover;
 }
@@ -83,17 +83,17 @@ body {
 .hero header {
   clear: both;
 }
-/* line 31, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .hero header img {
   width: 8em;
   height: 8em;
   float: left;
 }
-/* line 37, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .hero header ul {
   float: right;
 }
-/* line 41, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .hero header li {
   float: left;
   margin: 1em .5em;
@@ -102,28 +102,29 @@ body {
   border-radius: 2px;
   font-color: highlight-text-color;
 }
-/* line 49, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .hero header li:last-child {
   border: 3px solid white;
 }
-/* line 57, ../sass/style.scss */
-.hero h1 {
+
+/* line 61, ../sass/style.scss */
+.intros h1 {
   font-size: 4em;
   font-color: highlight-text-color;
-  padding: 2em 0 1em 0;
+  padding: .1em 0 1em 0;
 }
-/* line 63, ../sass/style.scss */
-.hero h2 {
+/* line 67, ../sass/style.scss */
+.intros h2 {
   margin: 1em;
   font-size: 2em;
   font-color: highlight-text-color;
 }
-/* line 69, ../sass/style.scss */
-.hero form {
+/* line 73, ../sass/style.scss */
+.intros form {
   padding: 2em 0 4em 0;
 }
-/* line 72, ../sass/style.scss */
-.hero form input[type="text"] {
+/* line 76, ../sass/style.scss */
+.intros form input[type="text"] {
   padding: 1em;
   border: 0;
   width: 18em;
@@ -131,8 +132,8 @@ body {
   background: #efefef;
   opacity: .5;
 }
-/* line 81, ../sass/style.scss */
-.hero form input[type="button"] {
+/* line 85, ../sass/style.scss */
+.intros form input[type="button"] {
   color: white;
   padding: 1em;
   border: 0;
@@ -141,19 +142,19 @@ body {
   background-color: lightgreen;
 }
 
-/* line 92, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .numbers {
   width: 80%;
   margin: 0 auto;
 }
-/* line 96, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .numbers ul {
   position: relative;
   top: 0em;
   background: #efefef;
   clear: both;
 }
-/* line 101, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .numbers ul li {
   float: left;
   width: 25%;
@@ -162,29 +163,29 @@ body {
   border-bottom: 1px solid #D9DADA;
   border-left: 1px solid #D9DADA;
 }
-/* line 109, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .numbers ul li:last-child {
   border-right: 1px solid #D9DADA;
 }
-/* line 113, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .numbers ul li h2 {
   font-size: 2em;
   font-weight: bold;
   padding: 1em 0;
 }
-/* line 119, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .numbers ul li h3 {
   padding: 0 0 2em 0;
   font-size: 1.5em;
 }
 
-/* line 129, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .how-it-works {
   display: block;
   margin: 2em auto 2em auto;
   clear: both;
 }
-/* line 134, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .how-it-works .number {
   font-size: 2em;
   color: black;
@@ -197,29 +198,29 @@ body {
   background-color: #efefef;
   border-radius: 100%;
 }
-/* line 148, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .how-it-works li {
   float: left;
   width: 33.33%;
 }
-/* line 154, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .how-it-works p::before {
   content: "";
   display: block;
   color: #6e6e6e;
 }
-/* line 160, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .how-it-works p {
   color: #C8C8C7;
   font-size: 2em;
 }
-/* line 165, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .how-it-works h2 {
   font-size: 2em;
   text-transform: uppercase;
   padding: 1em 0;
 }
-/* line 170, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .how-it-works h2:after {
   display: block;
   content: "";
@@ -228,7 +229,7 @@ body {
   height: .1em;
   margin: .4em auto;
 }
-/* line 180, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .how-it-works h3 {
   font-size: 1.5em;
   font-weight: bold;
