@@ -76,7 +76,7 @@ body {
   max-height: 100em;
   margin: 0 auto 1em auto;
   padding: 2em 0em 60em 0em;
-  background: url("/images/kano.jpg");
+  background: url("../images/kano.jpg");
   background-size: cover;
 }
 /* line 30, ../sass/style.scss */
